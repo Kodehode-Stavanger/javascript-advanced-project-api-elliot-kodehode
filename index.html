@@ -1,12 +1,44 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <script
+      src="script.js"
+      defer
+    ></script>
     <title>Free games list</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <aside id="main-menu">
+      <label for="sort-by">Sorted by:</label>
+      <select
+        id="sort-by"
+        name="sort-by"
+      >
+        <option
+          id="release-desc"
+          selected
+        >
+          Release (Newest first)
+        </option>
+        <option id="release-asc">Release (Oldest first)</option>
+        <option id="alphabetical-asc">Name (A - Z)</option>
+        <option id="alphabetical-desc">Name (Z - A)</option>
+      </select>
+    </aside>
+    <main>
+      <section id="games-container"></section>
+      <button id="load-more">Load games</button>
+    </main>
+  </body>
 </html>

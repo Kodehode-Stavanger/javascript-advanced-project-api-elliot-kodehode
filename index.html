@@ -2,43 +2,28 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
-    <script
-      src="script.js"
-      defer
-    ></script>
-    <title>Free games list</title>
-  </head>
-  <body>
-    <aside id="main-menu">
-      <label for="sort-by">Sorted by:</label>
-      <select
-        id="sort-by"
-        name="sort-by"
-      >
-        <option
-          id="release-desc"
-          selected
-        >
-          Release (Newest first)
-        </option>
-        <option id="release-asc">Release (Oldest first)</option>
-        <option id="alphabetical-asc">Name (A - Z)</option>
-        <option id="alphabetical-desc">Name (Z - A)</option>
-      </select>
-    </aside>
-    <main>
-      <section id="games-container"></section>
-      <button id="load-more">Load games</button>
-    </main>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<title>Free games list</title>
+	</head>
+	<body>
+		<header>
+			<logo>FreeGames</logo>
+			<label for="sort-by">Sorted by:</label>
+			<select id="sort-by" name="sort-by">
+				<option value="release-new" selected> Release (Newest first) </option>
+				<option value="release-old">Release (Oldest first)</option>
+				<option value="alpha-az">Name (A - Z)</option>
+				<option value="alpha-za">Name (Z - A)</option>
+			</select>
+			<h1>Browse free games</h1>
+		</header>
+		<main>
+			<section id="games-container"></section>
+		</main>
+		<button id="load-more">Load games</button>
+	</body>
 </html>

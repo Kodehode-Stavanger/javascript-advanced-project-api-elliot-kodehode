@@ -11,7 +11,7 @@ let initialLoad = true
 
 async function getGameList() {
 	try {
-		const fetchResult = await fetch('https://www.freetogame.com/api/games')
+		const fetchResult = await fetch('https://corsproxy.io/?https://www.freetogame.com/api/games')
 		fetchedData = await fetchResult.json()
 
 		// check if the fetch worked and check the data from json file

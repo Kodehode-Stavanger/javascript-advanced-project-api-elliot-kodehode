@@ -11,18 +11,41 @@ body {
 	color: white;
 	background-color: rgb(35, 35, 35);
 	gap: 42px;
+	font-family: 'Open Sans', sans-serif;
 }
 
-logo {
-	padding: 24px;
-	margin: 12px;
-	text-align: center;
-	text-justify: center;
+#logo-and-sort {
+	position: absolute;
+	top: 0;
+	padding: 4px 12px;
+}
+
+#logo {
+	width: 100px;
+}
+
+#sorting {
+	width: fit-content;
 }
 header {
+	display: flex;
+	flex-direction: column;
 	height: 250px;
 	background-color: rgb(19, 19, 19);
 	box-shadow: 0 3px 10px black;
+	gap: 12px;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	pointer-events: none;
+	align-self: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 52px;
+	font-weight: 700;
+	color: rgb(253, 249, 0);
+	text-shadow: 4px 3px red;
 }
 #games-container {
 	justify-content: center;

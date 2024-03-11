@@ -20,10 +20,10 @@ Most public APIs have nice documentation that show you how to use it, the variou
 
 PS: Do **not** use any API that requires you to use a key. (We haven't covered how to hide your API keys safely yet.)
 
-If CORS = chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+If CORS = open run and type: chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
 
 Notes:
 
 - Load games button to load 50 new games on click below the first 50
 
-- figure out if asc means from lowest to highest or the other way around
+

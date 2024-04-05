@@ -12,6 +12,7 @@ body {
 	background-color: rgb(35, 35, 35);
 	gap: 42px;
 	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
 }
 
 #logo-and-sort {
